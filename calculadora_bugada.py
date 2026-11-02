@@ -4,3 +4,13 @@ def somar(a, b):
 
 def subtrair(a, b):
     return a + b
+
+def multiplicar(a, b):
+    return a * b
+
+
+def dividir(a, b):
+    if b == 0:
+        print("Erro: Divisão por zero não é permitida.")
+        return None
+    return a / b
